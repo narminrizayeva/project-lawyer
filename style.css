@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300&family=Playfair+Display&family=Poppins:wght@200&family=Vidaloka&display=swap');
+*{
+    margin: 0;
+}
+.vertical{
+    border-left: 1px solid white;
+    height: 20px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.small-haeder .right,.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white
+}
+.small-header i{
+    color: white;
+    margin-right:20px;
+    margin-top:5px;
+}
+.small-header{
+    padding:10px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#2E0000;
+}
+.big-header{
+    position: sticky;
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+.big-header .menu{
+    display: flex;
+}
+.menu img{
+    width: 20%;
+    height: 70%;
+}
+.menu p{
+    margin-top:10px;
+    font-size: 20px;
+    margin-right:30px;
+    margin-left: 20px;
+
+}
+.menu p:hover{
+    color: darkred;
+    text-decoration: underline;
+    background-position: 100% 0;
+    text-underline-offset: 15px;
+}
+.big-header .call-us{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+.call-us span{
+    color: darkred;
+    text-decoration: dotted;
+    border-bottom:1px dotted darkred;
+}
+.call-us p{
+    font-size: 20px;
+}
+.Appointment{
+    padding: 10px;
+    color:darkred;
+    border:1px solid darkred;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+.Appointment:hover{
+    color: white;
+    background-color: darkred;
+}
+.lawyer img{
+    margin-top: 10px;
+    width: 100%;
+}
+.lawyer{
+    position: relative;
+}
+.text h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:50px;
+}
+.text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-bottom:20px;
+}
+.lawyer .text{
+    color: white;
+    position: absolute;
+    top:100px;
+    left:30px;
+    width: 500px;
+}
+.lawyer button{
+    background-color: darkred;
+    padding: 20px;
+    border:none;
+    color: white;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: orange;
+}
+.ceo-colorrib{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.ceo-colorrib .left{
+    flex:50%;
+    display: flex;
+}
+.ceo-colorrib .left img{
+    position: relative;
+    /* width: 400px; */
+    margin-left: 150px;
+}
+.box-15{
+    position: absolute;
+    left: 450px;
+    margin-top: 480px;
+    width: 150px;
+    height: 140px;
+    background-color: #B40000;
+    padding: 20px;
+}
+.box-15 h1{
+    text-align: center;
+    font-size:60px;
+
+}
+.box-15 p{
+    margin-left: 40px;
+    text-align: center;
+    width: 50%;
+}
+.ceo-colorrib .right{
+    padding: 80px;
+    font-family: 'Montserrat', sans-serif;
+    flex:50%;
+    width: 200px;
+    height: 600px;
+}
+.ceo-colorrib .right h1{
+    font-size:40px;
+    margin-bottom: 50px;
+}
+.ceo-colorrib .right span{
+    font-weight: 900;
+}
+.ceo-colorrib .right p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.practise-area{
+    padding-bottom: 50px;
+    margin-top: 50px;
+    background-color:#F8F4F4;
+}
+.practise-area .main-h1{
+    font-family: 'Montserrat', sans-serif;
+    padding-top:100px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: black;
+}
+.practise-area img{
+    margin-left:100px;
+}
+.practise-area h5{
+    font-size: 1.25rem;
+    text-align: center;
+    color: black;
+}
+.practise-area p{
+    line-height: 200%;
+    font-size: 16px;
+    text-align: center;
+    color:black;
+}
+.practise-area .cards .white{
+    margin:4px;
+    padding:35px 30px 1px 30px;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+}
+.practise-area .red{
+    border-radius: 0 30%  0 0;
+    margin-right: 160px;
+    background-color:#B40000; 
+    width: 300px;
+    height: 500px;
+}
+.practise-area .cards{
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.red .not-main-h1{
+    padding-top:40px;
+    text-align: center;
+}
+.red p{
+    color: white;
+    font-size: 14px;
+}
+.red button{
+    transition: 0.3s;
+    border: none;
+    padding: 20px;
+    width: 280px;
+    margin-left: 10px;
+}
+.red button:hover{
+    color: #B40000;
+}
+input {
+    border: 1px solid white;
+    background-color: #B40000;
+    margin-left: 5px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+input:hover{
+    border: 1px solid orange;
+}
+::placeholder{
+    color: white;
+    font-size: 15px;
+
+}
+.why-us{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 50px;
+    width: 600px;
+    margin-left: 250px;
+}
+.why-us .first-text{
+    font-size: 30px;
+    color: #B40000;
+
+}
+.why-us .second-text{
+    font-size:20px;
+    font-weight: 900;
+}
+.why-us .third-text{
+    font-weight: 400;
+}
+.why-us p{
+    margin-bottom:50px;
+}
+.why-us button{
+    padding: 20px;
+    width: 190x;
+    border: none;
+    background-color: #B40000;
+    color: white;
+    transition: 0.3s;
+}
+.why-us button:hover{
+    background-color: orange;
+}
+.companies{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.companies img{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.statui{
+    width:100vw;
+    height: 400px;
+}
+.clients{
+    position: relative;
+}
+.clients-text{
+    width: 600px;
+    color: white;
+    position: absolute;
+    top: 50px;
+    right: 15px;
+}
+.clients-text h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+    font-size:40px;
+
+}
+.clients-text p{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+    font-size: 30px;
+
+}
+.Rauben{
+    display: flex;
+    font-size: 20px;
+}
+.Rauben img{
+    margin-right: 30px;}
+.Rauben span{
+    font-family: 'Montserrat', sans-serif;
+    color: #BDB9BB;
+}
